@@ -30,3 +30,5 @@ class Builder:
             if field == 'field':
                 field_name, field_value, is_inline = value
                 embed.add_field(name=field_name, value=field_value, inline=is_inline)
+
+        return embed

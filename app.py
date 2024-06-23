@@ -1,5 +1,6 @@
 import discord
 from client import client
+from src.builder import Builder
 
 @client.event
 async def on_ready():
